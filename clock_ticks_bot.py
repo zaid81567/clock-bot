@@ -1,7 +1,6 @@
 # installed pyTelegramBotAPI
 import telebot
 import time
-import os
 
 KEY_API = '5961703408:AAHLaZKvHtZ3RBRt51fRaGf-Y-mYWsKTJhw'
 # creating a bot
