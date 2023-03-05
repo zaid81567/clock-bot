@@ -24,7 +24,7 @@ def time_is(message):
     HH = seconds_passed_today//(3600)
     MM = (seconds_passed_today - HH*3600)//60
     SS = (seconds_passed_today - (HH*3600 + MM*60))
-    time_now = f'Time >> {int(HH)} : {int(MM)} : {int(SS)}'
+    time_now = f'Time (IND) >> {int(HH)} : {int(MM)} : {int(SS)}'
     bot.send_message(message.chat.id , time_now)
     
 
