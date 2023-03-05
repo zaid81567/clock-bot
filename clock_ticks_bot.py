@@ -19,6 +19,9 @@ def greeting(message):
 #     SS = (seconds_passed_today - (HH*3600 + MM*60))
 #     time_now = f'Time >> {int(HH)} : {int(MM)} : {int(SS)}'
 #     bot.send_message(message.chat.id , time_now)
+@bot.message_handler(commands=["creator"])
+def creator(message):
+    bot.send_message(message.chat.id,'I was created by Sir Md Zaid , on 5th March 2023 and deployed on 6th . ')
 
 bot.polling()
 
