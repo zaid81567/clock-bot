@@ -1,1 +1,1 @@
-worker: python clock_ticks_bot.py
+worker: "python clock_ticks_bot.py"
